@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a297e312.css",
+    "main.js": "/static/js/main.dd2f13fb.js",
+    "static/js/415.fc063c41.chunk.js": "/static/js/415.fc063c41.chunk.js",
+    "static/js/787.f6e65957.chunk.js": "/static/js/787.f6e65957.chunk.js",
+    "static/media/Akash3.png": "/static/media/Akash3.a80b2b247a940488b1b6.png",
+    "static/media/Resume.pdf": "/static/media/Resume.ad613e6051ef9982ddd2.pdf",
+    "static/media/Body_and_barth.jpg": "/static/media/Body_and_barth.5c4bd06a9d755119141b.jpg",
+    "static/media/Toy_march2.jpg": "/static/media/Toy_march2.326ef2d93bf231d7c114.jpg",
+    "static/media/Expedia.jpg": "/static/media/Expedia.eb32283bc7e1db4a4540.jpg",
+    "static/media/hero2.png": "/static/media/hero2.fbcb35fd64ca3ba89f1e.png",
+    "static/media/CarbManager.jpg": "/static/media/CarbManager.51ff3332f7170b2b31eb.jpg",
+    "static/media/home-bg.jpg": "/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
+    "static/media/pre.svg": "/static/media/pre.4410c5baaa673cc131da.svg",
+    "index.html": "/index.html",
+    "main.a297e312.css.map": "/static/css/main.a297e312.css.map",
+    "main.dd2f13fb.js.map": "/static/js/main.dd2f13fb.js.map",
+    "415.fc063c41.chunk.js.map": "/static/js/415.fc063c41.chunk.js.map",
+    "787.f6e65957.chunk.js.map": "/static/js/787.f6e65957.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a297e312.css",
+    "static/js/main.dd2f13fb.js"
+  ]
+}
