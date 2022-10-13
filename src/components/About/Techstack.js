@@ -1,19 +1,10 @@
 import React from "react";
-import { Col, Image, Row } from "react-bootstrap";
-// import { CgHTML } from "react-icons/cg";
+import { Col,Row } from "react-bootstrap";
 import {
-  DiJavascript1,
-  DiReact,
-  DiNodejs,
-  DiMongodb,
   DiGit,
-  DiHtml5
 } from "react-icons/di";
 import {
   SiRedux,
-  SiExpress,
-  SiBootstrap,
-  SiChakraui,
   SiTypescript,
   SiCypress,
 } from "react-icons/si";
