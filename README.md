@@ -65,7 +65,6 @@ Give a ⭐ if you like this website!
 
 ### Deployed Link.
 
-Click Here: <a href="https://iakashmondal.github.io/" target="_blank"><strong> PortFolio Deployed Link </strong></a>
+Click Here: <a href="https://iakashmondal.github.io/" target="_blank"><strong> PortFolio Deployed Link at Github</strong></a>
 
-Click Here: <a href="https://srinivasbhat-portfolio.netlify.app/" target="_blank"><strong> PortFolio Deployed Link </strong></a>
-IAkashMondal.github.io
+Click Here: <a href="https://iakashmondal-iakashmondal.vercel.app/" target="_blank"><strong> PortFolio Deployed Link at Vercel </strong></a>
