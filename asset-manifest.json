@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/static/css/main.a297e312.css",
-    "main.js": "/static/js/main.dd2f13fb.js",
+    "main.js": "/static/js/main.cdc55d10.js",
     "static/js/415.fc063c41.chunk.js": "/static/js/415.fc063c41.chunk.js",
     "static/js/787.f6e65957.chunk.js": "/static/js/787.f6e65957.chunk.js",
     "static/media/Akash3.png": "/static/media/Akash3.a80b2b247a940488b1b6.png",
-    "static/media/Resume.pdf": "/static/media/Resume.ad613e6051ef9982ddd2.pdf",
+    "static/media/AKASH_MONDAL_Resume.pdf": "/static/media/AKASH_MONDAL_Resume.7b120cd62f1621d52b21.pdf",
     "static/media/Body_and_barth.jpg": "/static/media/Body_and_barth.5c4bd06a9d755119141b.jpg",
     "static/media/Toy_march2.jpg": "/static/media/Toy_march2.326ef2d93bf231d7c114.jpg",
     "static/media/Expedia.jpg": "/static/media/Expedia.eb32283bc7e1db4a4540.jpg",
@@ -15,12 +15,12 @@
     "static/media/pre.svg": "/static/media/pre.4410c5baaa673cc131da.svg",
     "index.html": "/index.html",
     "main.a297e312.css.map": "/static/css/main.a297e312.css.map",
-    "main.dd2f13fb.js.map": "/static/js/main.dd2f13fb.js.map",
+    "main.cdc55d10.js.map": "/static/js/main.cdc55d10.js.map",
     "415.fc063c41.chunk.js.map": "/static/js/415.fc063c41.chunk.js.map",
     "787.f6e65957.chunk.js.map": "/static/js/787.f6e65957.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a297e312.css",
-    "static/js/main.dd2f13fb.js"
+    "static/js/main.cdc55d10.js"
   ]
 }
