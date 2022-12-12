@@ -14,7 +14,9 @@ function Footer() {
     <div id='contact'>
       <Particles/>
     <Container fluid className="footer">
-    
+    <h1 className="project-heading">
+          <strong className="Yellow">CONTACT </strong>ME
+        </h1>
       <Row>
         <Col md="4" className="footer-copywright">
         <p className="contact-font  text-white d-flex flex-row"> Email : &nbsp;&nbsp; <a className="Yellow mailto" href="mailto:info.coldfired@gmail.com"><p  onClick={()=> {navigator.clipboard.writeText("info.coldfired@gmail.com") ;alert("Email id: info.coldfired@gmail.com coppied ") }} > info.coldfired@gmail.com <MdOutlineContentCopy/></p></a> </p>
