@@ -1,7 +1,7 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
-import { CgWebsite } from "react-icons/cg";
+import { HiOutlineExternalLink } from "react-icons/hi";
 import { BsGithub } from "react-icons/bs";
 
 function ProjectCards(props) {
@@ -9,7 +9,7 @@ function ProjectCards(props) {
     <Card className="project-card-view">
       <Card.Img variant="top" src={props.imgPath} alt="card-img" />
       <Card.Body>
-        <Card.Title><strong className="purple">{props.title}</strong></Card.Title>
+        <Card.Title><strong className="Yellow">{props.title}</strong></Card.Title>
         <Card.Text style={{ textAlign: "justify" }}>
           {props.description}
         </Card.Text>
@@ -21,7 +21,7 @@ function ProjectCards(props) {
         </Card.Text>
         <Button variant="primary" href={props.ghLink} target="_blank">
           <BsGithub /> &nbsp;
-          {props.isBlog ? "Blog" : "GitHub"}
+          <strong>{ "GitHub"}</strong>
         </Button>
         {"\n"}
         {"\n"}
@@ -35,8 +35,8 @@ function ProjectCards(props) {
             target="_blank"
             style={{ marginLeft: "10px" }}
           >
-            <CgWebsite /> &nbsp;
-            {"Demo"}
+             
+           <strong> {"Live Demo"} </strong>&nbsp; <HiOutlineExternalLink color="black"  size={20}/>
           </Button>
         )}
       </Card.Body>

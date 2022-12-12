@@ -1,7 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import photo from "../../img/Akash3.png"
-import Tilt from "react-parallax-tilt";
+import homeLogo from "../../img/hero2.png"
 import {
   AiFillGithub,
 } from "react-icons/ai";
@@ -14,20 +13,20 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              LET ME <span className="purple"> INTRODUCE </span> MYSELF
+              LET ME <span className="Yellow"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-            I am a  <i><b className="purple">Full Stack Developer </b></i>, passionate about building digital products that improve everyday experience for people.
+            I am a  <i><b className="Yellow">Full Stack Developer </b></i>, passionate about building digital products that improve everyday experience for people.
               <br />
               <br />I am proficient in
               <i>
-                <b className="purple"> MERN Stack </b>
+                <b className="Yellow"> MERN Stack </b>
               </i>
               <br />
               <br />
               My field of Interest's are building new &nbsp;
               <i>
-                <b className="purple">Web Technologies and Products </b>
+                <b className="Yellow">Web Technologies and Products </b>
               </i>
               <br />
               <br />
@@ -36,22 +35,25 @@ function Home2() {
             </p>
           </Col>
           <Col md={4} className="myAvtar">
-            <Tilt>
-              <img src={photo} className="img-fluid border 1rem border-dark rounded-circle" alt="avatar" />
-            </Tilt>
+          <img
+                src={homeLogo}
+                alt="home pic"
+                className="img-fluid"
+                style={{ maxHeight: "450px" }}
+              />
           </Col>
         </Row>
         <Row>
           <Col md={12} className="home-about-social">
-            <h1>FIND ME ON</h1>
+            <h1> <strong className="Yellow">FIND ME</strong> ON</h1>
             <p>
-              Feel free to <span className="purple">connect </span>with me
+              Feel free to <span className="Yellow">connect </span>with me
             </p>
             <p className="contact-font">
-              Email : <a className="purple mailto" href="mailto:info.coldfired@gmail.com"><p  onClick={()=> {navigator.clipboard.writeText("info.coldfired@gmail.com") ;alert("Email id: info.coldfired@gmail.comcoppied ") }} >info.coldfired@gmail.com <MdOutlineContentCopy/></p></a>
+              Email : <a className="Yellow mailto" href="mailto:info.coldfired@gmail.com">&nbsp;&nbsp;<strong  onClick={()=> {navigator.clipboard.writeText("info.coldfired@gmail.com") ;alert("Email id: info.coldfired@gmail.comcoppied ") }} >info.coldfired@gmail.com <MdOutlineContentCopy/></strong></a>
             </p>
             <p className="contact-font">
-              Mobile : <span className="purple"><p onClick={()=> {navigator.clipboard.writeText("+91 8637838646"); alert("phone no: +91 8637838646 coppied ")}} > +91 863783864 <MdOutlineContentCopy/></p></span>
+              Mobile : <span className="Yellow">&nbsp;<strong onClick={()=> {navigator.clipboard.writeText("+91 8637838646"); alert("phone no: +91 8637838646 coppied ")}} > +91 863783864 <MdOutlineContentCopy/></strong></span>
             </p>
             <ul className="home-about-social-links">
               <li className="social-icons">

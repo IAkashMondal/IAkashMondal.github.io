@@ -3,8 +3,8 @@ import { Col, Row } from "react-bootstrap";
 import {
   SiVisualstudiocode,
   SiPostman,
-  SiHeroku,
   SiVercel,
+  SiFirebase,
 } from "react-icons/si";
 import { AiFillCodeSandboxCircle } from "react-icons/ai";
 
@@ -22,7 +22,7 @@ function Toolstack() {
         <SiPostman /> <h4>PostMan</h4>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiHeroku />  <h4>Heroku</h4>
+        <SiFirebase />  <h4>Fire Base</h4>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiVercel />  <h4>Vercel</h4>

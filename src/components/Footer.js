@@ -17,27 +17,29 @@ function Footer() {
     
       <Row>
         <Col md="4" className="footer-copywright">
-        <p className="contact-font  text-white d-flex flex-row"> Email : <a className="purple mailto" href="mailto:info.coldfired@gmail.com"><p  onClick={()=> {navigator.clipboard.writeText("info.coldfired@gmail.com") ;alert("Email id: info.coldfired@gmail.com coppied ") }} > info.coldfired@gmail.com <MdOutlineContentCopy/></p></a> </p>
-        <p className="contact-font  text-white d-flex flex-row"> Phone no : <a className="purple mailto" href="8637838346"><p  onClick={()=> {navigator.clipboard.writeText("info.coldfired@gmail.com") ;alert("Phone no : 8637838346 coppied ") }} > +91 8637838346 <MdOutlineContentCopy/></p></a> </p>
-        <p className="contact-font  text-white d-flex flex-row"> <IoLocationSharp/> <p>Address: </p> <p className="purple">{` Siliguri,India.`}</p></p>
+        <p className="contact-font  text-white d-flex flex-row"> Email : &nbsp;&nbsp; <a className="Yellow mailto" href="mailto:info.coldfired@gmail.com"><p  onClick={()=> {navigator.clipboard.writeText("info.coldfired@gmail.com") ;alert("Email id: info.coldfired@gmail.com coppied ") }} > info.coldfired@gmail.com <MdOutlineContentCopy/></p></a> </p>
+        <p className="contact-font  text-white d-flex flex-row"> Phone no :&nbsp;&nbsp; <a className="Yellow mailto" href="8637838346"><p  onClick={()=> {navigator.clipboard.writeText("info.coldfired@gmail.com") ;alert("Phone no : 8637838346 coppied ") }} > +91 8637838346 <MdOutlineContentCopy/></p></a> </p>
+        <p className="contact-font  text-white flex-row"> <IoLocationSharp/> <p>Address:&nbsp;&nbsp; </p>&nbsp;&nbsp; <p className="Yellow">{` Siliguri,India.`}</p></p>
         </Col>
-        <Col md="4" className="footer-copywright border border-white rounded spacer">
-            <p className="header purple"><strong>Send me an Email</strong></p>
+        <Col md="4" className="footer-copywright border border-3 border-white rounded spacer">
+          <Container className="footer-container">
+            <p className="header Yellow"><strong>Send me an Email</strong></p>
         <Form action="https://formspree.io/f/mgeqywna" method="POST" >
         <Form.Group className="mb-3" controlId="User name">
-        <Form.Label className="purple">Username</Form.Label>
-        <Form.Control name="username" type="text" placeholder="Username" autoComplete="off" required />
+        <Form.Label className="Yellow">Username</Form.Label>
+        <Form.Control name="username" type="text" placeholder="Your name" autoComplete="off" required />
       </Form.Group>
       <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
-        <Form.Label className="purple" >Email address</Form.Label>
+        <Form.Label className="Yellow" >Email address</Form.Label>
         <Form.Control name="Email" type="email" placeholder="name@example.com"  autoComplete="off" required/>
       </Form.Group>
       <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
-        <Form.Label className="purple">Your massage</Form.Label>
-        <Form.Control name="massage" as="textarea" autoComplete="off" required rows={3} />
+        <Form.Label className="Yellow">Your massage</Form.Label>
+        <Form.Control placeholder={`We Love your work,  So we want to contact you for Hireing Process.`} name="massage" as="textarea" autoComplete="off" required rows={3} />
       </Form.Group>
-      <input className="purple" type={"submit"} value="SEND"/>
+      <input className="Yellow" type={"submit"} value="SEND"/>
     </Form>
+    </Container>
         </Col>
         
         <Col md="4" className="footer-body">

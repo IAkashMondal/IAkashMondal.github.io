@@ -1,10 +1,10 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import homeLogo from "../../img/hero2.png"
 import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
-
+import photo from "../../img/Akash3.png"
+import Tilt from "react-parallax-tilt";
 function Home() {
   return (
     <section>
@@ -30,13 +30,11 @@ function Home() {
               </div>
             </Col>
 
-            <Col md={5} style={{ paddingBottom: 20 }}>
-              <img
-                src={homeLogo}
-                alt="home pic"
-                className="img-fluid"
-                style={{ maxHeight: "450px" }}
-              />
+            <Col md={4} className="myAvtar">
+            <Tilt>
+              <img src={photo} className="img-fluid border border-2 border-warning rounded-circle" alt="avatar" />
+            </Tilt>
+
             </Col>
           </Row>
         </Container>
