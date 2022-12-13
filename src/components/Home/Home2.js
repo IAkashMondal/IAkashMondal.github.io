@@ -45,7 +45,7 @@ function Home2() {
         </Row>
         <Row>
           <Col md={12} className="home-about-social">
-            <h1> <strong className="Yellow">FIND ME</strong> ON</h1>
+            <h1>Get in <strong className="Yellow"> Touch</strong></h1>
             <p>
               Feel free to <span className="Yellow">connect </span>with me
             </p>

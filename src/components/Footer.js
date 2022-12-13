@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Row, Col, Form } from "react-bootstrap";
+import { Container, Row, Col, Form, Button } from "react-bootstrap";
 import {
   AiFillGithub,
 } from "react-icons/ai";
@@ -7,16 +7,16 @@ import { FaLinkedinIn } from "react-icons/fa";
 import { IoLocationSharp } from "react-icons/io5";
 import { MdOutlineContentCopy } from "react-icons/md";
 import Particles from "react-tsparticles";
-
 function Footer() {
 
   return (
     <div id='contact'>
       <Particles/>
     <Container fluid className="footer">
-    <h1 className="project-heading">
+    <h1 className="project-heading" >
           <strong className="Yellow">CONTACT </strong>ME
         </h1>
+        <h3 className="project-heading-text">Get in <strong className="Yellow"> Touch</strong>&nbsp; With Me</h3>
       <Row>
         <Col md="4" className="footer-copywright">
         <p className="contact-font  text-white d-flex flex-row"> Email : &nbsp;&nbsp; <a className="Yellow mailto" href="mailto:info.coldfired@gmail.com"><p  onClick={()=> {navigator.clipboard.writeText("info.coldfired@gmail.com") ;alert("Email id: info.coldfired@gmail.com coppied ") }} > info.coldfired@gmail.com <MdOutlineContentCopy/></p></a> </p>
@@ -39,7 +39,7 @@ function Footer() {
         <Form.Label className="Yellow">Your massage</Form.Label>
         <Form.Control placeholder={`We Love your work,  So we want to contact you for Hireing Process.`} name="massage" as="textarea" autoComplete="off" required rows={3} />
       </Form.Group>
-      <input className="Yellow" type={"submit"} value="SEND"/>
+      <Button className="Yellow" color="black" type={"submit"} value="SEND"><strong>SUBMIT</strong></Button>
     </Form>
     </Container>
         </Col>

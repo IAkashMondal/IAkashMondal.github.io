@@ -13,6 +13,10 @@ html {
 
   --imp-text-color: #f5d10d;
 }
+body {
+  background: #000 !important;
+  background-color: #000 !important;
+}
 
 .Yellow {
   color: var(--imp-text-color) !important;
@@ -260,7 +264,6 @@ button:focus {
   background-position: top center;
   background-repeat: no-repeat;
   padding-bottom: 30px !important;
-  /* padding-top: 30px !important; */
 }
 
 .home-content {
@@ -316,7 +319,6 @@ button:focus {
   border : 1px solid #f2db54;
   border-radius: 50%;
   background:#f2db54;
-  /* box-shadow: #68187a 16px 20px; */
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
@@ -336,7 +338,6 @@ button:focus {
   position: relative;
   padding-bottom: 30px !important;
   background: #000;
-  /* padding-top: 70px !important; */
 }
 
 .home-about-description {
@@ -527,11 +528,17 @@ button:focus {
 }
 .project-heading {
   color: white !important;
-  padding-bottom: 30px;
+  padding-bottom: 10px;
  
   font-size: 2.3em !important;
   font-weight: 500 !important;
   padding-top: 10px !important;
+}
+.project-heading-text {
+  color: white !important;
+  padding-bottom: 30px;
+  font-size: 1.3em !important;
+  font-weight: 500 !important;
 }
 
 .skills-section{
