@@ -18,7 +18,12 @@ import { CgFileDocument } from "react-icons/cg";
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
   const [navColour, updateNavbar] = useState(false);
-
+  const handelResumeRedirect =()=>{
+    window.open(
+      "https://drive.google.com/file/d/1wWg3y8BhopSfhfpF4IyRpfDDBZPo9w52/view?usp=share_link","_blank",
+      "noopener","noreferrer"
+    )
+  }
   function scrollHandler() {
     if (window.scrollY >= 20) {
       updateNavbar(true);
@@ -90,9 +95,8 @@ function NavBar() {
 
             <Nav.Item>
               <Nav.Link
-                href={pdf} 
-                target="_blank"
-                onClick={() => updateExpanded(false)}
+                href={pdf}  download
+                onClick={ handelResumeRedirect }
                >
                 <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
               </Nav.Link>

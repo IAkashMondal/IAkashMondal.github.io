@@ -1,13 +1,9 @@
 import React from "react";
-import { Container, Row, Col, Nav, Button } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 import homeLogo from "../../img/hero2.png"
-import {
-  AiFillGithub,
-} from "react-icons/ai";
+import { AiFillGithub,} from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 import {  MdOutlineContentCopy } from "react-icons/md";
-import pdf from "../../Assets/AKASH_MONDAL_Resume.pdf"
-import { CgFileDocument } from "react-icons/cg";
 function Home2() {
   return (
     <Container fluid className="home-about-section" id="about">
@@ -55,7 +51,9 @@ function Home2() {
               Email : <a className="Yellow mailto" href="mailto:info.coldfired@gmail.com">&nbsp;&nbsp;<strong  onClick={()=> {navigator.clipboard.writeText("info.coldfired@gmail.com") ;alert("Email id: info.coldfired@gmail.com coppied ") }} >info.coldfired@gmail.com <MdOutlineContentCopy/></strong></a>
             </p>
             <p className="contact-font">
-              Mobile : <span className="Yellow">&nbsp;<strong onClick={()=> {navigator.clipboard.writeText("+91 8637838646"); alert("phone no: +91 8637838646 coppied ")}} > +91 863783864 <MdOutlineContentCopy/></strong></span>
+              Mobile : <span className="Yellow">&nbsp;
+              <strong onClick={()=> {navigator.clipboard.writeText("info.coldfired@gmail.com") ;
+              alert("Phone no : 8637838346 coppied ") }}> +91 863783864 <MdOutlineContentCopy/></strong></span>
             </p>
             <ul className="home-about-social-links">
               <li className="social-icons">
@@ -81,10 +79,6 @@ function Home2() {
             </ul>
           </Col>
         </Row>
-        <div id="resume" className="resume-btn-align"><button   className="resume-btn"> 
-          <CgFileDocument  color="black" size={60}  /> <Nav.Link href={pdf} download>
-            <p  className="resume-text">Resume Download</p></Nav.Link>
-            </button></div>
       </Container>
     </Container>
   );
