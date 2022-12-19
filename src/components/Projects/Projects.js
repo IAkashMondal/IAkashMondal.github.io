@@ -1,7 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
-import Particle from "../Particle";
 import carb from "../../img/CarbManager.jpg" 
 import mytv from "../../img/MytvApp.jpg" 
 import Trip from "../../img/TripAdvisor.jpg" 
@@ -14,12 +13,11 @@ function Projects() {
   return (
     <Container  fluid className="project-section">
       <div id="project" className="projects-sections"></div>
-      <Particle />
       <Container>
         <h1 className="project-heading" >
           My Recent <strong className="Yellow">Works </strong>
         </h1>
-        <p style={{ color: "white" }}>
+        <p className="text-align" style={{ color: "white" }}>
           Here are a few projects I've worked on recently.
         </p>
       

@@ -245,13 +245,6 @@ button:focus {
     transform: rotate(0deg);
   }
 }
-#tsparticles {
-  position: fixed !important;
-  background-repeat: no-repeat !important;
-  background-size: cover !important;
-  width: 100%;
-  height: 100%;
-}
 
 .home-header {
   padding-top: 180px !important;
@@ -259,17 +252,23 @@ button:focus {
 
 .home-section {
   position: relative;
-  z-index: -1;
-  background-image: var(--image-gradient), url(./Assets/home-bg.jpg);
+  
+  background-image: url(./Assets/home-bg.jpg);
+  background: black;
   background-position: top center;
   background-repeat: no-repeat;
   padding-bottom: 30px !important;
 }
-
+.text-align {
+  text-align: center !important;
+}
 .home-content {
-  padding: 9rem 0 2rem !important;
+  padding: 4.5rem 0 2rem !important;
+  background-color: #000;
+  background: #000 !important;
   color: whitesmoke;
   text-align: left;
+  z-index: 4;
 }
 
 .heading {
@@ -338,6 +337,7 @@ button:focus {
   position: relative;
   padding-bottom: 30px !important;
   background: #000;
+  z-index: 4;
 }
 
 .home-about-description {
@@ -424,9 +424,12 @@ button:focus {
 /* --------- */
 .footer {
   background-color: rgb(2, 2, 2);
+  background: #000000; 
+  background-image: var(--image-gradient);
   bottom: 0 !important;
   padding-top: 10px !important;
   padding-bottom: 40px !important ;
+
 }
 .footer-copywright {
   text-align: center !important;
@@ -434,7 +437,6 @@ button:focus {
 }
 
 .footer-body {
-  z-index: 1;
   text-align: center !important;
 }
 
@@ -473,6 +475,7 @@ button:focus {
   padding-top: 30px !important;
   padding-bottom: 30px !important;
   background-image: var(--section-background-color) !important;
+  z-index: 4;
 }
 
 .projects-sections{
@@ -528,6 +531,7 @@ button:focus {
 }
 .project-heading {
   color: white !important;
+  text-align: center !important;
   padding-bottom: 10px;
  
   font-size: 2.3em !important;
@@ -539,6 +543,8 @@ button:focus {
   padding-bottom: 30px;
   font-size: 1.3em !important;
   font-weight: 500 !important;
+  text-align: center;
+  
 }
 
 .skills-section{
@@ -551,7 +557,7 @@ button:focus {
 
 .about-section {
   position: relative !important;
-  
+  z-index: 4;
   padding-bottom: 30px !important;
   background-image: var(--section-background-color) !important;
   color: white !important;
@@ -705,6 +711,9 @@ button:focus {
 }
 .gitstat {
   padding-top: 50px;
+  display: grid;
+  justify-content: center;
+ text-align: center;
 }
 .animate-like {
   animation-name: likeAnimation;

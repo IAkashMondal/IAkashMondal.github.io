@@ -6,13 +6,11 @@ import {
 import { FaLinkedinIn } from "react-icons/fa";
 import { IoLocationSharp } from "react-icons/io5";
 import { MdOutlineContentCopy } from "react-icons/md";
-import Particles from "react-tsparticles";
 function Footer() {
 
   return (
     <div id='contact'>
-      <Particles/>
-    <Container fluid className="footer">
+    <Container className="footer">
     <h1 className="project-heading" >
           <strong className="Yellow">CONTACT </strong>ME
         </h1>

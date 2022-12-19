@@ -1,9 +1,9 @@
 import React from "react";
 import GitHubCalendar from "react-github-calendar";
-import { Container, Row } from "react-bootstrap";
+import { Col, Container, Row } from "react-bootstrap";
 function Github() {
   return (
-    <Row style={{ justifyContent: "center"  }}>
+    <Row style={{ justifyContent: "center",alignItems:"center"  }}>
       <h1 className="project-heading" >
         Days I have <strong className="Yellow">Code</strong>
       </h1>
@@ -16,9 +16,11 @@ function Github() {
 
       />
    <Container className="gitstat">
-      <p><img align="center" width={"60%"} src="https://github-readme-streak-stats.herokuapp.com/?user=iakashmondal&theme=great-gatsby" alt="iakashmondal" /></p>
-      <p>&nbsp;<img align="center" width={"60%"}  src="https://github-readme-stats.vercel.app/api?username=iakashmondal&theme=great-gatsby&show_icons=true&locale=en" alt="iakashmondal" /></p>
-      <p><img align="center"width={"60%"} src="https://github-readme-stats.vercel.app/api/top-langs?username=iakashmondal&theme=great-gatsby&show_icons=true&locale=en&layout=compact" alt="iakashmondal" /></p>
+    <Row >
+      <p ><img   width={"60%"} src="https://github-readme-streak-stats.herokuapp.com/?user=iakashmondal&theme=great-gatsby" alt="iakashmondal" /></p>
+      <p >&nbsp;<img   width={"60%"}  src="https://github-readme-stats.vercel.app/api?username=iakashmondal&theme=great-gatsby&show_icons=true&locale=en" alt="iakashmondal" /></p>
+      <p ><img  width={"60%"} src="https://github-readme-stats.vercel.app/api/top-langs?username=iakashmondal&theme=great-gatsby&show_icons=true&locale=en&layout=compact" alt="iakashmondal" /></p>
+    </Row>
    </Container>
     </Row>
   );
