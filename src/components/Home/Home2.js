@@ -47,7 +47,6 @@ function Home2() {
         </Row>
         <Row> 
           <Col md={12} className="home-about-social">
-          <div id="resume" className="resume-btn-align"><button   className="resume-btn"> <CgFileDocument size={60}  /> <Nav.Link href={pdf} download><p  className="resume-text">Resume Download</p></Nav.Link></button></div>
             <h1>Get in <strong className="Yellow"> Touch</strong></h1>
             <p>
               Feel free to <span className="Yellow">connect </span>with me
@@ -82,6 +81,10 @@ function Home2() {
             </ul>
           </Col>
         </Row>
+        <div id="resume" className="resume-btn-align"><button   className="resume-btn"> 
+          <CgFileDocument size={60}  /> <Nav.Link href={pdf} download>
+            <p  className="resume-text">Resume Download</p></Nav.Link>
+            </button></div>
       </Container>
     </Container>
   );
