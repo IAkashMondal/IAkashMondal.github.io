@@ -90,7 +90,7 @@ function NavBar() {
 
             <Nav.Item>
               <Nav.Link
-                href={pdf}
+                href={pdf} download
                 target="_blank"
                 onClick={() => updateExpanded(false)}
               >
