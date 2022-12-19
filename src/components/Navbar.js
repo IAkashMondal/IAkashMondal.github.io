@@ -90,10 +90,10 @@ function NavBar() {
 
             <Nav.Item>
               <Nav.Link
-                href={pdf} download
+                href={pdf} 
                 target="_blank"
                 onClick={() => updateExpanded(false)}
-              >
+               >
                 <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
               </Nav.Link>
             </Nav.Item>

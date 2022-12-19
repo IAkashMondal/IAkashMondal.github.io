@@ -1,11 +1,13 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col, Nav, Button } from "react-bootstrap";
 import homeLogo from "../../img/hero2.png"
 import {
   AiFillGithub,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 import {  MdOutlineContentCopy } from "react-icons/md";
+import pdf from "../../Assets/AKASH_MONDAL_Resume.pdf"
+import { CgFileDocument } from "react-icons/cg";
 function Home2() {
   return (
     <Container fluid className="home-about-section" id="about">
@@ -43,8 +45,9 @@ function Home2() {
               />
           </Col>
         </Row>
-        <Row>
+        <Row> 
           <Col md={12} className="home-about-social">
+          <div id="resume" className="resume-btn-align"><button   className="resume-btn"> <CgFileDocument size={60}  /> <Nav.Link href={pdf} download><p  className="resume-text">Resume Download</p></Nav.Link></button></div>
             <h1>Get in <strong className="Yellow"> Touch</strong></h1>
             <p>
               Feel free to <span className="Yellow">connect </span>with me

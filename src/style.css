@@ -709,6 +709,36 @@ button:focus {
   background: #fff;
   border: 2px solid #f5d10d;
 }
+.resume-btn{
+  padding: 5px 10px;
+  color: rgb(243, 242, 242);
+  background-color:#f5d10d;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  width: 180px;
+  margin-bottom: 50px;
+  
+}
+.resume-btn-align {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.resume-text{
+  color:black;
+  margin: 5px;
+  
+  font-weight: bolder;
+}
+.resume-btn:hover{
+  background-color: #f09e30;
+}
+.resume-text:hover{
+  color: #000000;
+}
 .gitstat {
   padding-top: 50px;
   display: grid;
