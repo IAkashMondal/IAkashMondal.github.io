@@ -82,7 +82,7 @@ function Home2() {
           </Col>
         </Row>
         <div id="resume" className="resume-btn-align"><button   className="resume-btn"> 
-          <CgFileDocument size={60}  /> <Nav.Link href={pdf} download>
+          <CgFileDocument  color="black" size={60}  /> <Nav.Link href={pdf} download>
             <p  className="resume-text">Resume Download</p></Nav.Link>
             </button></div>
       </Container>

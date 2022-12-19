@@ -729,6 +729,8 @@ button:focus {
 }
 .resume-text{
   color:black;
+  font-size: larger;
+  line-height: 20px;
   margin: 5px;
   
   font-weight: bolder;
