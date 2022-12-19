@@ -50,7 +50,7 @@ function Home2() {
               Feel free to <span className="Yellow">connect </span>with me
             </p>
             <p className="contact-font">
-              Email : <a className="Yellow mailto" href="mailto:info.coldfired@gmail.com">&nbsp;&nbsp;<strong  onClick={()=> {navigator.clipboard.writeText("info.coldfired@gmail.com") ;alert("Email id: info.coldfired@gmail.comcoppied ") }} >info.coldfired@gmail.com <MdOutlineContentCopy/></strong></a>
+              Email : <a className="Yellow mailto" href="mailto:info.coldfired@gmail.com">&nbsp;&nbsp;<strong  onClick={()=> {navigator.clipboard.writeText("info.coldfired@gmail.com") ;alert("Email id: info.coldfired@gmail.com coppied ") }} >info.coldfired@gmail.com <MdOutlineContentCopy/></strong></a>
             </p>
             <p className="contact-font">
               Mobile : <span className="Yellow">&nbsp;<strong onClick={()=> {navigator.clipboard.writeText("+91 8637838646"); alert("phone no: +91 8637838646 coppied ")}} > +91 863783864 <MdOutlineContentCopy/></strong></span>

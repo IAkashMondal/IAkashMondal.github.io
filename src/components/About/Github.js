@@ -1,6 +1,6 @@
 import React from "react";
 import GitHubCalendar from "react-github-calendar";
-import { Col, Container, Row } from "react-bootstrap";
+import { Container, Row } from "react-bootstrap";
 function Github() {
   return (
     <Row style={{ justifyContent: "center",alignItems:"center"  }}>
