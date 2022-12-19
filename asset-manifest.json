@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.92a9fc3d.css",
-    "main.js": "/static/js/main.c4f960a3.js",
+    "main.css": "/static/css/main.1f2adfba.css",
+    "main.js": "/static/js/main.b9fdbc5e.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/Akash3.png": "/static/media/Akash3.a80b2b247a940488b1b6.png",
     "static/media/AKASH_MONDAL_Resume.pdf": "/static/media/AKASH_MONDAL_Resume.7b120cd62f1621d52b21.pdf",
@@ -13,14 +13,14 @@
     "static/media/hero2.png": "/static/media/hero2.66781c7698c9dda03144.png",
     "static/media/CarbManager.jpg": "/static/media/CarbManager.51ff3332f7170b2b31eb.jpg",
     "static/media/home-bg.jpg": "/static/media/home-bg.9a705db53b2509a42412.jpg",
-    "static/media/pre.svg": "/static/media/pre.ec306c98b096b28df589.svg",
+    "static/media/pre.svg": "/static/media/pre.d4c3fc919841f3425896.svg",
     "index.html": "/index.html",
-    "main.92a9fc3d.css.map": "/static/css/main.92a9fc3d.css.map",
-    "main.c4f960a3.js.map": "/static/js/main.c4f960a3.js.map",
+    "main.1f2adfba.css.map": "/static/css/main.1f2adfba.css.map",
+    "main.b9fdbc5e.js.map": "/static/js/main.b9fdbc5e.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.92a9fc3d.css",
-    "static/js/main.c4f960a3.js"
+    "static/css/main.1f2adfba.css",
+    "static/js/main.b9fdbc5e.js"
   ]
 }
