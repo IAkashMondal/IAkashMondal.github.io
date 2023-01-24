@@ -331,6 +331,10 @@ button:focus {
     padding-top: 2em !important;
     padding-bottom: 2em !important;
   }
+
+  .namelogo {
+  font-size: 1em;
+}
 }
 
 .home-about-section {
@@ -770,6 +774,7 @@ button:focus {
   line-height: 1.4em !important;
   background-color: #f5d10d!important;
   padding: 0.25rem 1.1rem !important;
+  margin-left: 2.5rem!important;
   vertical-align: middle !important;
   text-align: center !important;
 }
