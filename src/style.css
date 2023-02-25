@@ -514,7 +514,12 @@ button:focus {
   opacity: 0.8 !important;
   border-radius: 10px !important;
 }
-
+.btn-group{
+  display: flex;
+  justify-content: space-evenly;
+  gap: 20px;
+  align-items: center;
+}
 
 
 .btn-primary {
@@ -522,6 +527,7 @@ button:focus {
   font-weight: bolder;
   background-color: #f5d10d !important;
   border-color: #f5d10d !important;
+  border-radius: 5px !important;
 }
 
 .btn-primary:hover {

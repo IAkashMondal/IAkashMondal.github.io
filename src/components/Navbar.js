@@ -4,7 +4,7 @@ import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
 import Button from "react-bootstrap/Button";
 import { FcContacts } from "react-icons/fc";
-import pdf from "../Assets/AKASH_MONDAL_Resume.pdf"
+import pdf from ".././Assets/Fw16_515_Akash_Mondal_Resume.pdf";
 import {
   AiFillStar,
   AiOutlineHome,
@@ -18,12 +18,14 @@ import { CgFileDocument } from "react-icons/cg";
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
   const [navColour, updateNavbar] = useState(false);
-  const handelResumeRedirect =()=>{
+  const handelResumeRedirect = () => {
     window.open(
-      "https://drive.google.com/file/d/1wWg3y8BhopSfhfpF4IyRpfDDBZPo9w52/view?usp=share_link","_blank",
-      "noopener","noreferrer"
-    )
-  }
+      "https://1drv.ms/b/s!Ag2D51MDD2LabrgrFdRSgGSL22c?e=CLZ9ab",
+      "_blank",
+      "noopener",
+      "noreferrer"
+    );
+  };
   function scrollHandler() {
     if (window.scrollY >= 20) {
       updateNavbar(true);
@@ -64,28 +66,19 @@ function NavBar() {
             </Nav.Item>
 
             <Nav.Item>
-              <Nav.Link
-                href="#about"
-                onClick={() => updateExpanded(false)}
-              >
+              <Nav.Link href="#about" onClick={() => updateExpanded(false)}>
                 <AiOutlineUser style={{ marginBottom: "2px" }} /> About
               </Nav.Link>
             </Nav.Item>
 
             <Nav.Item>
-              <Nav.Link
-                href="#skills"
-                onClick={() => updateExpanded(false)}
-              >
+              <Nav.Link href="#skills" onClick={() => updateExpanded(false)}>
                 <AiOutlineUser style={{ marginBottom: "2px" }} /> Skills
               </Nav.Link>
             </Nav.Item>
 
             <Nav.Item>
-              <Nav.Link
-                href="#project"
-                onClick={() => updateExpanded(false)}
-              >
+              <Nav.Link href="#project" onClick={() => updateExpanded(false)}>
                 <AiOutlineFundProjectionScreen
                   style={{ marginBottom: "2px" }}
                 />{" "}
@@ -94,19 +87,13 @@ function NavBar() {
             </Nav.Item>
 
             <Nav.Item>
-              <Nav.Link
-                href={pdf}  download
-                onClick={ handelResumeRedirect }
-               >
+              <Nav.Link href={pdf} download onClick={handelResumeRedirect}>
                 <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
               </Nav.Link>
             </Nav.Item>
 
             <Nav.Item>
-              <Nav.Link
-                href="#contact"
-                onClick={() => updateExpanded(false)}
-              >
+              <Nav.Link href="#contact" onClick={() => updateExpanded(false)}>
                 <FcContacts style={{ marginBottom: "2px" }} /> Contact
               </Nav.Link>
             </Nav.Item>
