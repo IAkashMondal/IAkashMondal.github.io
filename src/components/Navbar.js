@@ -87,7 +87,11 @@ function NavBar() {
             </Nav.Item>
 
             <Nav.Item>
-              <Nav.Link href={pdf} download onClick={handelResumeRedirect}>
+              <Nav.Link
+                href={pdf}
+                download={"Fw16_515_Akash_Mondal_Resume.pdf"}
+                onClick={handelResumeRedirect}
+              >
                 <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
               </Nav.Link>
             </Nav.Item>
